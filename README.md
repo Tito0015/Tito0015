@@ -1,6 +1,6 @@
 # Hi, I'm Tarek 👋
 
-Founder & Lead Architect @ Veraptos — building CPG-based static analysis lowering engines for threat detection and multi-format rule generation across Web2 & Web3 (CPG / AST → Nuclei | Semgrep | CodeQL | YARA | Sigma | Hexens Glider).
+Founder & Lead Architect @ Veraptos — building CPG-based static analysis lowering engines for threat detection and multi-format rule generation across Web2 & Web3 (CPG / AST → Nuclei | Semgrep | Opengrep | CodeQL | YARA | Sigma | Hexens Glider).
 ---
 
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
