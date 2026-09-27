@@ -1,7 +1,6 @@
 # Hi, I'm Tarek 👋
 
-Founder & Lead Architect @ **Veraptos** — building CPG-based, LLM-guided static analysis lowering engines for threat detection and rule generation.
-
+Founder & Lead Architect @ Veraptos — building CPG-based static analysis lowering engines for threat detection and multi-format rule generation across Web2 & Web3 (CPG / AST → Nuclei | Semgrep | CodeQL | YARA | Sigma | Hexens Glider).
 ---
 
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
@@ -22,9 +21,9 @@ Author of 7 automated Solidity AST invariant detection queries on Glider IDE:
 ---
 
 ### 🔬 Featured Projects & Technical Analysis
-- ⚡ **[cpg-nuclei-compiler](https://github.com/Tito0015/cpg-nuclei-compiler):** Deterministic Joern CPG-to-Nuclei YAML compiler & Docker verification harness.
-- 📖 **Medium Article:** [CPG Compilation vs. LLM AI Generation: Empirical Analysis of CVE-2025-62593 Rule Accuracy](https://medium.com/@mhiritarek/cpg-compilation-vs-llm-ai-generation-empirical-analysis-of-cve-2025-62593-rule-accuracy-6ea0b27583da)
 
+* ⚡ **[cpg-nuclei-compiler](https://github.com/Tito0015/cpg-nuclei-compiler)** [![Marketplace](https://img.shields.io/badge/Marketplace-v1.0.0-blue?logo=github)](https://github.com/marketplace/actions/cpg-nuclei-compiler-verification-harness): Deterministic Joern CPG-to-Nuclei YAML compiler & Docker verification harness. Available as a **[v1 GitHub Action](https://github.com/marketplace/actions/cpg-nuclei-compiler-verification-harness)** for automated non-destructive template testing in CI.
+* 📖 **Medium Article:** [CPG Compilation vs. LLM AI Generation: Empirical Analysis of CVE-2025-62593 Rule Accuracy](https://medium.com/@mhiritarek/cpg-compilation-vs-llm-ai-generation-empirical-analysis-of-cve-2025-62593-rule-accuracy)
 ---
 
 ### 📫 Connect
