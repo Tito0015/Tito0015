@@ -35,3 +35,6 @@ Author of 7 automated Solidity AST invariant detection queries on Glider IDE:
 - **LinkedIn:** [in/tarek-mhiri](https://www.linkedin.com/in/tarek-mhiri/)
 - **X / Twitter:** [@TITO088](https://x.com/TITO088)
 - **Medium:** [@mhiritarek](https://medium.com/@mhiritarek)
+---
+*Self-funding the Veraptos R&D floor one pizza at a time while lowering CPG ASTs into multi-format threat rules.*
+  
