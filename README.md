@@ -11,12 +11,17 @@ Founder & Lead Architect @ Veraptos — building CPG-based static analysis lower
 * **Joern CPG Engine** ( `joernio/joern` ): [#6298](https://github.com/joernio/joern/pull/6298) — C2CPG double-pointer dataflow reachability fixes **[Merged Sep 24, 2026]**
 ---
 
-### ⛓️ Web3 & Glider (Hexens) Query Suite (`Tito099` — In Review / Pending Merge)
+### ⛓️ Web3 & Glider (Hexens) Query Suite (`Tito099` — Pending Update)
+
 Author of 7 automated Solidity AST invariant detection queries on Glider IDE:
-- 🟡 **Native Asset Double-Spend** via settle/sweep logic *(In Review)*
-- 🔵 **Risc0 ZK Unbound Journal Digest** & **ABI Smuggling** *(Pending Triage)*
-- 🔵 **Merkle Shift-Compose Overflow** & **Duplicate Signature Quota Bypass** *(Pending Triage)*
-- 🔵 **Governance Check-Effects-Interactions** & **Decimal Precision Loss** *(Pending Triage)*
+
+* 🔵 **Decimal Precision Loss via Scale-to-Single/Dual-Vault** *(Pending merge — 30 Aug 2026)*
+* 🔵 **Native Asset Double-Spend via settle/sweep logic** *(Pending update — 6 Aug 2026)*
+* 🔵 **Duplicate Signature Quota Bypass via reuse** *(Pending update — 5 Aug 2026)*
+* 🔵 **Risc0 ZK Unbound Journal Digest** *(Pending update — 4 Aug 2026)*
+* 🔵 **Merkle Shift-Compose Overflow via verifier logic** *(Pending update — 4 Aug 2026)*
+* 🔵 **Governance Check-Effects-Interactions (CEI)** *(Pending merge — 3 Aug 2026)*
+* 🔵 **ABI Smuggling — Fixed-Offset Calldata** *(Pending merge — 22 Jun 2026)*
 
 ---
 
