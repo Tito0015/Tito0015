@@ -5,10 +5,10 @@ Founder & Lead Architect @ Veraptos — building CPG-based static analysis lower
 
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
 
-* **Joern CPG Engine** (`joernio/joern`): #5580 — C2CPG double-pointer dataflow reachability fixes **[Merged Sep 24, 2026]**
-* **Nuclei** (`projectdiscovery/nuclei-templates`): #17171 — Ray RCE (CVE-2025-62593) **[Merged Sep 24, 2026]**
-* **Semgrep** (`semgrep/semgrep-rules`): #3873 — TypeScript MCP command injection & SSRF **[Merged Sep 21, 2026]**
-* **CodeQL** (`github/codeql`): #22438 — C++ MMIO un-sanitized memcpy query **[Merged Sep 21, 2026]**
+* **CodeQL** ( `github/codeql` ): [#22438](https://github.com/github/codeql/pull/22438) — C++ MMIO un-sanitized memcpy query **[Merged Sep 21, 2026]**
+* **Semgrep** ( `semgrep/semgrep-rules` ): [#3873](https://github.com/semgrep/semgrep-rules/pull/4052) — TypeScript MCP command injection & SSRF **[Merged Sep 21, 2026]**
+* **Nuclei** ( `projectdiscovery/nuclei-templates` ): [#17171](https://github.com/projectdiscovery/nuclei-templates/pull/17171) — Ray RCE (CVE-2025-62593) **[Merged Sep 24, 2026]**
+* **Joern CPG Engine** ( `joernio/joern` ): [#5580](https://github.com/joernio/joern/pull/6298) — C2CPG double-pointer dataflow reachability fixes **[Merged Sep 24, 2026]**
 ---
 
 ### ⛓️ Web3 & Glider (Hexens) Query Suite (`Tito099` — In Review / Pending Merge)
