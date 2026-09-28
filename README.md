@@ -1,6 +1,8 @@
-# Hi, I'm Tarek 👋
+Hi, I'm Tarek 👋
 
-Founder & Lead Architect @ Veraptos — building CPG-based static analysis lowering engines for threat detection and multi-format rule generation across Web2 & Web3 (CPG / AST → Nuclei | Semgrep | Opengrep | CodeQL | YARA | Sigma | Hexens Glider).
+Founder & Lead Architect @ Veraptos — building the universal rule compiler for AppSec ("Terraform for Threat Detection"). Write abstract vulnerability logic once (CPG/AST) $\rightarrow$ compile & lower directly into native CodeQL | Semgrep | Opengrep | Nuclei | YARA | Sigma | Hexens Glider rules across Web2 & Web3.
+
+⚡ The upstream contributions below were compiled, lowered, and verified using the Veraptos engine.
 ---
 
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
