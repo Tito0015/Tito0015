@@ -21,10 +21,8 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 └────────┘ └────────┘ └────────┘ └────────┘
 ```
 
-<p align="center">
-
-```text
-┌─────────────────────────────────────────┐
+<div align="center">
+<pre><code>┌─────────────────────────────────────────┐
 │        Abstract Threat Invariant        │
 └────────────────────┬────────────────────┘
                      │ (Write once: CPG/AST)
@@ -35,10 +33,8 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
      │          │          │          │
 ┌────▼───┐ ┌────▼───┐ ┌────▼───┐ ┌────▼───┐
 │CodeQL  │ │Semgrep │ │ Nuclei │ │ Glider │ + YARA/Sigma
-└────────┘ └────────┘ └────────┘ └────────┘
-
-```
-</p>
+└────────┘ └────────┘ └────────┘ └────────┘</code></pre>
+</div>
 ---
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
 
