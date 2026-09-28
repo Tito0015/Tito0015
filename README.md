@@ -20,21 +20,6 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 │CodeQL  │ │Semgrep │ │ Nuclei │ │ Glider │ + YARA/Sigma
 └────────┘ └────────┘ └────────┘ └────────┘
 ```
-
-<div align="center">
-<pre><code>┌─────────────────────────────────────────┐
-│        Abstract Threat Invariant        │
-└────────────────────┬────────────────────┘
-                     │ (Write once: CPG/AST)
-                     ▼
-┌─────────────────────────────────────────┐
-│        Veraptos Lowering Engine         │
-└────┬──────────┬──────────┬──────────┬───┘
-     │          │          │          │
-┌────▼───┐ ┌────▼───┐ ┌────▼───┐ ┌────▼───┐
-│CodeQL  │ │Semgrep │ │ Nuclei │ │ Glider │ + YARA/Sigma
-└────────┘ └────────┘ └────────┘ └────────┘</code></pre>
-</div>
 ---
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
 
