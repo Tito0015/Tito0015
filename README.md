@@ -4,7 +4,21 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 
 ⚡ The upstream contributions below were compiled, lowered, and verified using the Veraptos engine.
 ---
+### 🔄 The Meta-Compiler Architecture
 
+┌────────────────────────────────────────────────────────┐
+│             Abstract Threat Invariant                  │  <-- Write once (CPG/AST)
+└───────────────────────────┬────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│               Veraptos Lowering Engine                 │  <-- Deterministic Compilation
+└─────┬──────────────┬──────────────┬──────────────┬─────┘
+      │              │              │              │
+┌─────▼────┐  ┌──────▼───┐  ┌───────▼──┐  ┌────────▼────────┐
+│  CodeQL  │  │ Semgrep  │  │  Nuclei  │  │  Hexens Glider  │ ... + YARA & Sigma
+└──────────┘  └──────────┘  └──────────┘  └─────────────────┘
+---
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
 
 * **CodeQL** ( `github/codeql` ): [#22438](https://github.com/github/codeql/pull/22438) — C++ MMIO un-sanitized memcpy query **[Merged Sep 21, 2026]**
