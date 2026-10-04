@@ -23,10 +23,13 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 ---
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
 
-* **CodeQL** ( `github/codeql` ): [#22438](https://github.com/github/codeql/pull/22438) — C++ MMIO un-sanitized memcpy query **[Merged Sep 21, 2026]**
-* **Semgrep** ( `semgrep/semgrep-rules` ): [#4052](https://github.com/semgrep/semgrep-rules/pull/4052) — TypeScript MCP command injection & SSRF **[Merged Sep 21, 2026]**
-* **Nuclei** ( `projectdiscovery/nuclei-templates` ): [#17171](https://github.com/projectdiscovery/nuclei-templates/pull/17171) — Ray RCE (CVE-2025-62593) **[Merged Sep 24, 2026]**
-* **Joern CPG Engine** ( `joernio/joern` ): [#6298](https://github.com/joernio/joern/pull/6298) — C2CPG double-pointer dataflow reachability fixes **[Merged Sep 24, 2026]**
+## 🛡️ Upstream Proof-of-Work & Merged Contributions
+
+- **CodeQL** ( `github/codeql` ): [#22438](https://github.com/github/codeql/pull/22438) — C++ MMIO un-sanitized memcpy query [Merged Sep 21, 2026]
+- **Semgrep** ( `semgrep/semgrep-rules` ): [#4052](https://github.com/semgrep/semgrep-rules/pull/4052) — TypeScript MCP command injection & SSRF [Merged Sep 21, 2026]
+- **Nuclei** ( `projectdiscovery/nuclei-templates` ): [#17171](https://github.com/projectdiscovery/nuclei-templates/pull/17171) — Ray RCE (CVE-2025-62593) [Merged Sep 24, 2026]
+- **Joern CPG Engine** ( `joernio/joern` ): [#6298](https://github.com/joernio/joern/pull/6298) — C2CPG double-pointer dataflow reachability fixes [Merged Sep 24, 2026]
+- **Joern Dataflow Core** ( `joernio/joern` ): [#6358](https://github.com/joernio/joern/pull/6358) — Core REACHING_DEF path drop fixes for nested structs & pointer derefs [Merged Oct 4, 2026]
 ---
 
 ### ⛓️ Web3 & Glider (Hexens) Query Suite (`Tito099` — Pending Update)
