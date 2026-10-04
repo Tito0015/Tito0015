@@ -25,7 +25,6 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 ---
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
 
-## 🛡️ Upstream Proof-of-Work & Merged Contributions
 
 - **CodeQL** ( `github/codeql` ): [#22438](https://github.com/github/codeql/pull/22438) — C++ MMIO un-sanitized memcpy query [Merged Sep 21, 2026]
 - **Semgrep** ( `semgrep/semgrep-rules` ): [#4052](https://github.com/semgrep/semgrep-rules/pull/4052) — TypeScript MCP command injection & SSRF [Merged Sep 21, 2026]
