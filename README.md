@@ -32,7 +32,7 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 - **Joern CPG Engine** ( `joernio/joern` ): [#6298](https://github.com/joernio/joern/pull/6298) — C2CPG double-pointer dataflow reachability fixes [Merged Sep 24, 2026]
 - **Joern Dataflow Core** ( `joernio/joern` ): [#6358](https://github.com/joernio/joern/pull/6358) — Core REACHING_DEF path drop fixes for nested structs & pointer derefs [Merged Oct 4, 2026]
 - * **Nuclei (** `projectdiscovery/nuclei-templates` **):** [#17007](https://github.com/projectdiscovery/nuclei-templates/pull/17007) — changedetection.io LFI non-destructive refactor & cleanup (CVE-2024-51483) `[Merged Oct 8, 2026]`
--* **Joern CPG Linker (** `joernio/joern` **):** [#6355](https://github.com/joernio/joern/pull/6355) — Link dynamic pointer calls to method refs in conditional receivers `[Merged Oct 9, 2026]`
+* **Joern CPG Linker (** `joernio/joern` **):** [#6355](https://github.com/joernio/joern/pull/6355) — Link dynamic pointer calls to method refs in conditional receivers `[Merged Oct 9, 2026]`
 ---
 
 ### ⛓️ Web3 & Glider (Hexens) Query Suite (`Tito099` — Pending Update)
