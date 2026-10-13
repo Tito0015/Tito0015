@@ -25,9 +25,6 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 ---
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
 
-
-### 🛡️ Upstream Proof-of-Work & Merged Contributions
-
 * **Nuclei (** `projectdiscovery/nuclei-templates` **):** [#17286](https://github.com/projectdiscovery/nuclei-templates/pull/17286) — Harden CVE-2025-29927 against middleware-bypass false positives `[Merged Oct 13, 2026]`
 * **Joern CPG Linker (** `joernio/joern` **):** [#6355](https://github.com/joernio/joern/pull/6355) — Link dynamic pointer calls to method refs in conditional receivers `[Merged Oct 9, 2026]`
 * **Nuclei (** `projectdiscovery/nuclei-templates` **):** [#17007](https://github.com/projectdiscovery/nuclei-templates/pull/17007) — changedetection.io LFI non-destructive refactor & cleanup (CVE-2024-51483) `[Merged Oct 8, 2026]`
