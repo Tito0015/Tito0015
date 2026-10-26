@@ -7,20 +7,35 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 ### 🔄 The Meta-Compiler Architecture
 
 ```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                        Abstract Threat Invariant                       │
-└────────────────────────────────────────────────────────────────────────┘
-                                     │
-                                     │ (Write once: CPG/AST)
-                                     ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│                        Veraptos Lowering Engine                        │
-└────────────────────────────────────────────────────────────────────────┘
-   │        │         │        │        │        │        │        │
-   ▼        ▼         ▼        ▼        ▼        ▼        ▼        ▼
-┌──────┐ ┌───────┐ ┌────────┐ ┌───────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌───────┐
-│CodeQL│ │Semgrep│ │Opengrep│ │ Joern │ │Nuclei│ │Glider│ │ YARA │ │ Sigma │
-└──────┘ └───────┘ └────────┘ └───────┘ └──────┘ └──────┘ └──────┘ └───────┘
+ ┌────────────────────────────────────────────────────────┐
+ │                Abstract Threat Invariant               │
+ │       (Write once: Natural Language, YAML, or Code)    │
+ └───────────────────────────┬────────────────────────────┘
+                             │
+                             │ (1) AI translation
+                             ▼
+ ┌────────────────────────────────────────────────────────┐
+ │                    Agentic AI Layer                    │
+ │               Translation & Graph Mapping              │
+ └───────────────────────────┬────────────────────────────┘
+                             │
+                             │ (2) Standardized Logic
+                             ▼
+ ┌────────────────────────────────────────────────────────┐
+ │         Veraptos Lowering Engine (CPG / AST)           │
+ │            (Closed Core / Proprietary IR)              │
+ │                                                        │
+ │   • High-Fidelity Graph Traversals                     │
+ │   • Feature Extraction & AST Mapping                   │
+ │   • Deterministic Rule Compilation & Optimizers        │
+ └───────────────────────────┬────────────────────────────┘
+                             │
+     ┌───────┬───────┬───────┼───────┬───────┬───────┬───────┬───────┐
+     │       │       │       │       │       │       │       │       │
+     ▼       ▼       ▼       ▼       ▼       ▼       ▼       ▼       ▼
+ ┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐
+ │CodeQL ││Semgrep││Opengp ││ Joern ││Nuclei ││Glider ││Slither││ YARA  ││ Sigma │
+ └───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘
 ```
 ---
 ### 🛡️ Upstream Proof-of-Work & Merged Contributions
