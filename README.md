@@ -2,7 +2,7 @@ Hi, I'm Tarek 👋
 
 Founder & Lead Architect @ Veraptos — building the universal rule compiler for AppSec ("Terraform for Threat Detection"). Write abstract vulnerability logic once (CPG/AST) $\rightarrow$ compile & lower directly into native CodeQL | Semgrep | Opengrep | Nuclei | YARA | Sigma | Hexens Glider rules across Web2 & Web3.
 
-⚡ The upstream contributions below were compiled, lowered, and verified using the Veraptos engine.
+⚡ Bridging abstract threat modeling with verified, native detection across enterprise AppSec and Web3 toolchains.
 ---
 ### 🔄 The Meta-Compiler Architecture
 
@@ -37,6 +37,7 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
  │CodeQL ││Semgrep││Opengp ││ Joern ││Nuclei ││Glider ││Slither││ YARA  ││ Sigma │
  └───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘
 ```
+> **Architecture Note:** The pipeline cleanly separates intent from enforcement. LLM components are restricted to front-end invariant drafting from natural language or specifications. The closed-core Veraptos engine then takes over: validating candidate logic against Code Property Graph (CPG) semantics, checking reachability, and deterministically compiling the invariant into syntax-checked, native queries with zero manual refactoring.
 ---
 ### Upstream Contributions & Veraptos Validation
 
