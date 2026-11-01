@@ -59,6 +59,9 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 
 * **Opengrep CLI** (`opengrep/opengrep`): [#844](https://github.com/opengrep/opengrep/pull/844) - fix(cli): make --test work on Windows `[Merged Oct 20, 2026]`
 
+* * **Joern Dataflow Engine ( joernio/joern ):** [#6472](https://github.com/joernio/joern/pull/6472) - Preserve reaching definitions for conditional operator conditions [Merged Nov 1, 2026]
+* **Joern Dataflow Semantics ( joernio/joern ):** [#6473](https://github.com/joernio/joern/pull/6473) - Normalize binary operator DDG semantics to eliminate spurious cross-operand edges [Merged Nov 1, 2026]
+
 
 
 ---
