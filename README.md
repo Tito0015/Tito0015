@@ -37,7 +37,7 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
  │CodeQL ││Semgrep││Opengp ││ Joern ││Nuclei ││Glider ││Slither││ YARA  ││ Sigma │
  └───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘
 ```
-> **Architecture Note:** The pipeline cleanly separates intent from enforcement. LLM components are restricted to front-end invariant drafting from natural language or specifications. The closed-core Veraptos engine then takes over: validating candidate logic against Code Property Graph (CPG) semantics, checking reachability, and deterministically compiling the invariant into syntax-checked, native queries with zero manual refactoring.
+> **Architecture Note:** The pipeline cleanly separates intent from enforcement. LLM components are restricted to front-end invariant drafting from natural language or specifications. The closed-core Veraptos engine then takes over: validating candidate logic against Code Property Graph (CPG) semantics, checking reachability, and deterministically compiling the invariant into syntax-checked, native queries with zero manual refactoring. Built in native Rust
 ---
 ### Upstream Contributions & Veraptos Validation
 
