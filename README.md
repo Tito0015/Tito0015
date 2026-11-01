@@ -38,31 +38,75 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
  └───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘
 ```
 ---
-### 🛡️ Upstream Proof-of-Work & Merged Contributions
+### Upstream Contributions & Veraptos Validation
 
-* **Joern Ruby CPG** ( `joernio/joern` ): [#6440](https://github.com/joernio/joern/pull/6440) — rubysrc2cpg: emit STATIC modifier for singleton methods `[Merged Oct 21, 2026]`
-* **Opengrep CLI** ( `opengrep/opengrep` ): [#844](https://github.com/opengrep/opengrep/pull/844) — fix(cli): make --test work on Windows `[Merged Oct 20, 2026]`
-* **Nuclei (** `projectdiscovery/nuclei-templates` **):** [#17286](https://github.com/projectdiscovery/nuclei-templates/pull/17286) — Harden CVE-2025-29927 against middleware-bypass false positives `[Merged Oct 13, 2026]`
-* **Joern CPG Linker (** `joernio/joern` **):** [#6355](https://github.com/joernio/joern/pull/6355) — Link dynamic pointer calls to method refs in conditional receivers `[Merged Oct 9, 2026]`
-* **Nuclei (** `projectdiscovery/nuclei-templates` **):** [#17007](https://github.com/projectdiscovery/nuclei-templates/pull/17007) — changedetection.io LFI non-destructive refactor & cleanup (CVE-2024-51483) `[Merged Oct 8, 2026]`
-* **Joern Dataflow Core (** `joernio/joern` **):** [#6358](https://github.com/joernio/joern/pull/6358) — Core REACHING_DEF path drop fixes for nested structs & pointer derefs `[Merged Oct 4, 2026]`
-* **Joern CPG Engine (** `joernio/joern` **):** [#6298](https://github.com/joernio/joern/pull/6298) — C2CPG double-pointer dataflow reachability fixes `[Merged Sep 24, 2026]`
-* **Nuclei (** `projectdiscovery/nuclei-templates` **):** [#17171](https://github.com/projectdiscovery/nuclei-templates/pull/17171) — Ray RCE (CVE-2025-62593) `[Merged Sep 24, 2026]`
-* **Semgrep (** `semgrep/semgrep-rules` **):** [#4052](https://github.com/semgrep/semgrep-rules/pull/4052) — TypeScript MCP command injection & SSRF `[Merged Sep 21, 2026]`
-* **CodeQL (** `github/codeql` **):** [#22438](https://github.com/github/codeql/pull/22438) — C++ MMIO un-sanitized memcpy query `[Merged Sep 21, 2026]`
+#### 1. Core Toolchain & Engine Patches (Found & Authored via Veraptos R&D)
+
+*Contributions to upstream engines made while developing, stress-testing, and improving intermediate representation lowering:*
+
+* **Joern Dataflow Core** (`joernio/joern`): [#6358](https://github.com/joernio/joern/pull/6358) - Core REACHING_DEF path drop fixes for nested structs & pointer derefs `[Merged Oct 4, 2026]`
+
+
+* **Joern CPG Engine** (`joernio/joern`): [#6298](https://github.com/joernio/joern/pull/6298) - C2CPG double-pointer dataflow reachability fixes `[Merged Sep 24, 2026]`
+
+
+* **Joern CPG Linker** (`joernio/joern`): [#6355](https://github.com/joernio/joern/pull/6355) - Link dynamic pointer calls to method refs in conditional receivers `[Merged Oct 9, 2026]`
+
+
+* **Joern Ruby CPG** (`joernio/joern`): [#6440](https://github.com/joernio/joern/pull/6440) - rubysrc2cpg: emit STATIC modifier for singleton methods `[Merged Oct 21, 2026]`
+
+
+* **Opengrep CLI** (`opengrep/opengrep`): [#844](https://github.com/opengrep/opengrep/pull/844) - fix(cli): make --test work on Windows `[Merged Oct 20, 2026]`
+
+
+
 ---
 
-### ⛓️ Web3 & Glider (Hexens) Query Suite (`Tito099` — Pending Update)
+#### 2. Detections & Rule Lowering (Veraptos Compiled & Verified)
+
+*Native rules and query artifacts compiled from abstract threat invariants down to target scanner syntaxes:*
+
+* **CodeQL** (`github/codeql`): [#22438](https://github.com/github/codeql/pull/22438) - C++ MMIO un-sanitized memcpy query `[Merged Sep 21, 2026]`
+
+
+* **Semgrep** (`semgrep/semgrep-rules`): [#4052](https://github.com/semgrep/semgrep-rules/pull/4052) - TypeScript MCP command injection & SSRF `[Merged Sep 21, 2026]`
+
+
+* **Nuclei** (`projectdiscovery/nuclei-templates`): [#17286](https://github.com/projectdiscovery/nuclei-templates/pull/17286) - Harden CVE-2025-29927 against middleware-bypass false positives `[Merged Oct 13, 2026]`
+
+
+* **Nuclei** (`projectdiscovery/nuclei-templates`): [#17007](https://github.com/projectdiscovery/nuclei-templates/pull/17007) - changedetection.io LFI non-destructive refactor & cleanup (CVE-2024-51483) `[Merged Oct 8, 2026]`
+
+
+* **Nuclei** (`projectdiscovery/nuclei-templates`): [#17171](https://github.com/projectdiscovery/nuclei-templates/pull/17171) - Ray RCE (CVE-2025-62593) `[Merged Sep 24, 2026]`
+
+
+
+---
+
+#### 3. Web3 & Glider (Hexens) Query Suite (`Tito099` - Invariant Detection)
 
 Author of 7 automated Solidity AST invariant detection queries on Glider IDE:
 
-* 🔵 **Decimal Precision Loss via Scale-to-Single/Dual-Vault** *(Pending merge — 30 Aug 2026)*
-* 🔵 **Native Asset Double-Spend via settle/sweep logic** *(Pending update — 6 Aug 2026)*
-* 🔵 **Duplicate Signature Quota Bypass via reuse** *(Pending update — 5 Aug 2026)*
-* 🔵 **Risc0 ZK Unbound Journal Digest** *(Pending update — 4 Aug 2026)*
-* 🔵 **Merkle Shift-Compose Overflow via verifier logic** *(Pending update — 4 Aug 2026)*
-* 🔵 **Governance Check-Effects-Interactions (CEI)** *(Pending merge — 3 Aug 2026)*
-* 🔵 **ABI Smuggling — Fixed-Offset Calldata** *(Pending merge — 22 Jun 2026)*
+* `[+]` **Decimal Precision Loss via Scale-to-Single/Dual-Vault** `[Pending merge - Aug 30, 2026]`
+
+
+* `[+]` **Native Asset Double-Spend via settle/sweep logic** `[Pending update - Aug 6, 2026]`
+
+
+* `[+]` **Duplicate Signature Quota Bypass via reuse** `[Pending update - Aug 5, 2026]`
+
+
+* `[+]` **Risc0 ZK Unbound Journal Digest** `[Pending update - Aug 4, 2026]`
+
+
+* `[+]` **Merkle Shift-Compose Overflow via verifier logic** `[Pending update - Aug 4, 2026]`
+
+
+* `[+]` **Governance Check-Effects-Interactions (CEI)** `[Pending merge - Aug 3, 2026]`
+
+
+* `[+]` **ABI Smuggling - Fixed-Offset Calldata** `[Pending merge - Jun 22, 2026]`
 
 ---
 
