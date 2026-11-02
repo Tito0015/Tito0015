@@ -38,6 +38,21 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
  └───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘└───────┘
 ```
 > **Architecture Note:** The pipeline cleanly separates intent from enforcement. LLM components are restricted to front-end invariant drafting from natural language or specifications. The closed-core Veraptos engine then takes over: validating candidate logic against Code Property Graph (CPG) semantics, checking reachability, and deterministically compiling the invariant into syntax-checked, native queries with zero manual refactoring. Built in native Rust
+
+---
+
+### 🚀 Featured Releases: Veraptos Core Tooling & Benchmarks
+
+- **[Veraptos Threat Library](https://github.com/Tito0015/veraptos-threat-library)** ⚡
+  - **What it is:** 10 deterministic AppSec rules (Slither plugins + Opengrep YAMLs) deterministically lowered from abstract threat invariants.
+  - **Validation:** 11/11 PASS on a strict True Positive / True Negative regression harness against pinned Damn Vulnerable DeFi (v3.0.0) fixtures and safe negative controls.
+  - **Impact:** Demonstrates how multi-condition invariant logic outperforms heuristic linters by eliminating false positives. (MIT Licensed).
+
+- **[VeraptosBench-mini](https://github.com/Tito0015/veraptosbench)** 📊
+  - **What it is:** A reproducible evaluation benchmark for static analysis tools and AI models.
+  - **Metrics:** Measures **Fix Discrimination** (pre-patch recall vs. post-patch silence) rather than just raw bug finding.
+  - **Results:** Proves mathematically how standard heuristic engines (like stock Slither and Opengrep) fail to distinguish between vulnerable code and resolved oracle patches on real-world Web2 (Python) and Web3 (Solidity) advisories.
+
 ---
 ### Upstream Contributions & Veraptos Validation
 
