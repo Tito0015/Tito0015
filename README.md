@@ -85,6 +85,9 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 
 *Native rules and query artifacts compiled from abstract threat invariants down to target scanner syntaxes:*
 
+• **Sigma ( `SigmaHQ/sigma` ): [#6353](https://github.com/SigmaHQ/sigma/pull/6353) - LDAP Nightmare dual detection & native WER crash telemetry (CVE-2024-49113) `[Merged Nov 3, 2026]`**
+
+
 * **CodeQL** (`github/codeql`): [#22438](https://github.com/github/codeql/pull/22438) - C++ MMIO un-sanitized memcpy query `[Merged Sep 21, 2026]`
 
 
