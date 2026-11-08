@@ -60,6 +60,8 @@ Founder & Lead Architect @ Veraptos — building the universal rule compiler for
 
 *Contributions to upstream engines made while developing, stress-testing, and improving intermediate representation lowering:*
 
+* **Joern Dataflow Core ( joernio/joern ): [#6446](https://github.com/joernio/joern/pull/6446) - Fix struct member assignment reachability via aliased pointers [Merged Nov 5, 2026]
+
 * **Joern Dataflow Core** (`joernio/joern`): [#6358](https://github.com/joernio/joern/pull/6358) - Core REACHING_DEF path drop fixes for nested structs & pointer derefs `[Merged Oct 4, 2026]`
 
 
